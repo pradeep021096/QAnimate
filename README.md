@@ -22,7 +22,7 @@ from PIL import Image
 if __name__ == '__main__':
 	
 	#Input Folder Path
-	inputfolder = "./"
+	inputfolder = "./input"
 
 	#For All images(40X25 = 1000 pixels) in Input Folder
 	with open('output.csv', mode='a') as file:
